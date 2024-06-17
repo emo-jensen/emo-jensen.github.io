@@ -328,6 +328,9 @@ li a{
 .portfolio-image{
   max-width: 450px;
 }
+#about-me-image{
+  max-width: 400px;
+}
 
 #portfolio-title{
   /* width: 60%;
