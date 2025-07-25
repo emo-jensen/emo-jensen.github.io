@@ -23,6 +23,22 @@ body{
   font-family: "Roboto", sans-serif;
   line-height: 1.8;
 }
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 @media (min-width: 1400px) {
   .container{
@@ -150,17 +166,27 @@ li a{
 }
 
 .navbar-nav {
-  font-size: 15px;
+  /* font-size: 15px;
   text-shadow: 2px 2px 0 rgb(60, 60, 60);
   margin-left: auto;
   padding-left: 50%;
   position: fixed;
 
-  z-index: 100;
+  z-index: 100; */
 }
 
 .nav-text {
   color: rgb(255, 0, 0);
+}
+.nav{
+  position: fixed;
+  float: right;
+  padding-left: 50%;
+}
+.nav-link{
+  color: white;
+  /* text-shadow: 2px 2px black; */
+  background-color: rgba(68, 44, 140, 0.5);
 }
 
 .navbar-toggle{
@@ -211,7 +237,7 @@ li a{
 
 .page-section{
 	margin-top: 100px;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
   width: 100%;
 }
 
@@ -245,6 +271,7 @@ li a{
 
 .page-section__title--white{
   color: #fff;
+  padding-top: 50px;
 }
 
 .page-section__title-style{
@@ -312,6 +339,10 @@ li a{
   border-top: 1px #C1C1C1 dashed;
   display: block;
 }
+
+/* .skill-box{
+  color: white;
+} */
 
 /* .about__image{
   width: 100%;       
@@ -450,6 +481,10 @@ li a{
   border-radius: 10px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 50px;
+
+  background-color: white;
 }
 
 .skill .thumbnail .progress-bar{
@@ -1022,6 +1057,7 @@ li a{
 
 .footer--bg{
   background-color: #27353B;
+  margin-top: 0px;
 }
 
 .footer__title{
