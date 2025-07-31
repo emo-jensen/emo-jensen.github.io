@@ -917,6 +917,14 @@ li a{
 }
 }
 
+.card {
+  min-width: 300px;
+  min-height: 450px;
+}
+.card-img-top {
+  width: 100%;
+}
+
 @media (max-width: 1399px){
   .team .social-icons ul li{
     float: left;
